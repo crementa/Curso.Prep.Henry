@@ -28,8 +28,8 @@ const nuevoModulo = 21 % 5 === 1;
 
   // "Return" la string provista: str
   // Tu código:
-  var hiloDeLetras = ("str");
-  function devolverString(str) {return hiloDeLetras ;
+  var srt = ("str");
+  function devolverString(str) {return str ;
   }
 
 function suma(x, y) {
@@ -80,14 +80,14 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (nun<90) {return true} else {return false;}
+  if (num<90) {return true} else {return false;}
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (nun>50) {return true} else {return false;}
+  if (num>50) {return true} else {return false;}
 }
 
 function obtenerResto(x, y) {
@@ -162,7 +162,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola" + nombre + "!";
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
