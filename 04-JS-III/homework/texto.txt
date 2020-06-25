@@ -1,0 +1,23 @@
+texto.txt
+for:
+se usa para cumplir un paquete de código(función)
+de forma condicional
+para esto,
+ especifica una condición 
+ seguida del "for" encerrada entre () para que se ejecute 
+ cierta función y luego se declara o se invoca dicha función
+ dentro del for
+
+&&
+Sirve para sumar mas de una condición para permitir que se 
+ejecuta la funcion dentro del condicional.
+
+OR 
+ sirve para agregar más de una condición, 
+ que se puede dar, sin negar las demas
+ y que se ejecute la funcion indicada a esa situación.
+
+! sirve para negar la siguiente afirmación
+osea vuelve un signo opuesto a su significado.
+ 
+
