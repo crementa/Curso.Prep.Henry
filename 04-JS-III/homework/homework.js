@@ -126,7 +126,7 @@ function multiplicarArgumentos() {
   }
   return total;
 }
-  for 
+  
 
 
 // No modificar nada debajo de esta línea
