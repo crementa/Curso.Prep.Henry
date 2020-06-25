@@ -34,11 +34,12 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
- var unArray = array.push(elemento);
- return unArray;
- array[array.length] = elemento;
-  return unArray;CORREGIR ESTO!
+  var nuevoArray = array.push(elemento);
+  return nuevoArray;
+  array[array.length] = elemento;
+  return array;
 }
+ 
 
 function agregarItemAlComienzoDelArray(array, elemento) {
   // Añade el "elemento" al comienzo del array
