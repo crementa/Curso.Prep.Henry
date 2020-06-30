@@ -3,7 +3,7 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
-  return (array [0]);
+  return array [0];
 }
 
 function devolverUltimoElemento(array) {
@@ -23,11 +23,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var arrayA
-  for (i = 0; i < array.length; i++){
+  var arrayA = [];
+  for (var i = 0; i < array.length; i++){
     arrayA[i] = array [i] + 1;
   }
-  return arrayA
+  return arrayA;
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
